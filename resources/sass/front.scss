@@ -1,0 +1,54 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "login_overlay.css";
+
+@import "style6.css";
+
+@import "shop.css";
+
+@import "owl.carousel.css";
+
+@import "owl.theme.css";
+
+@import "jquery-ui1.css";
+
+@import "easy-responsive-tabs.css";
+
+@import "flexslider.css";
+
+@import "style1.css";
+
+@import "fontawesome-all.css";
+
+//.product-thumb {
+//    height: 225px;
+//    background-position: center;
+//    background-repeat: no-repeat;
+//    //background-size: cover;
+//    background-size: 90% 100%;
+//}
+.product-thumb {
+  height: 210px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 95% 100%;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+ul.cart-inner-info li {
+    margin-left: 10px;
+}
